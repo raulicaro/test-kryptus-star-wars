@@ -1,0 +1,51 @@
+.header-card {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    font-family:Arial, Helvetica, sans-serif
+  }
+  
+  .film-info {
+    margin-top: 10px;
+  }
+  
+  .info-item {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .opening-crawl {
+    margin-top: 20px;
+  }
+  
+  .crawl-label {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .crawl-text {
+    font-size: 16px;
+    white-space: pre-line; 
+  }
+
+
+.crawl-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggle-crawl-btn {
+  margin-left: 8px;
+  margin-top: -14px; 
+  vertical-align: middle; 
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #888;
+}
+  

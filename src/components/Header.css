@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'tie-wing';
+    src: url('../font/TIE-Wing.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'outline';
+    src: url('../font/Starjhol.ttf') format('truetype');
+}
+
+.star-wars-header {
+    font-family: 'tie-wing', sans-serif; 
+    font-size: 60px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.header-container {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .film-info {
+    margin-top: 10px;
+  }
+  
+  .opening-crawl {
+    margin-top: 10px;
+  }
